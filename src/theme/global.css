@@ -1,0 +1,19 @@
+html, body, #root, ion-app {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ion-app, ion-router-outlet {
+  position: static !important;
+  contain: none !important;
+  overflow: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+  #no-desktop { display: none; }
+}
